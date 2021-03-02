@@ -80,13 +80,4 @@ public class AppTest
             e.printStackTrace();
         }
     }
-
-    @Test
-    public void testStringCalcMod(){
-        try{
-            assertEquals(246, App.add("[243, 243]"));
-        }catch(Exception e){
-            e.printStackTrace();
-        }
-    }
 }
